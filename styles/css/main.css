@@ -1,0 +1,165 @@
+header {
+  width: 1440px;
+  height: 82px;
+}
+header ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style-type: none;
+  position: relative;
+  right: 50px;
+  gap: 50px;
+}
+header ul button {
+  width: 114px;
+  height: 40px;
+  border: none;
+  transition: 0.5s ease;
+}
+header ul button:hover {
+  background-color: #333;
+  color: #fff;
+}
+header ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.continer {
+  margin: 0 auto;
+  background-color: white;
+  width: 1440px;
+  height: 4750px;
+  overflow: hidden;
+}
+.continer .texts {
+  width: 1280px;
+  height: 482px;
+  background-color: #3F3B3D;
+  color: white;
+  position: relative;
+  top: 130px;
+}
+.continer .texts .text {
+  width: 521px;
+  height: 162px;
+  position: relative;
+  top: 256px;
+  padding: 0 50px;
+}
+.continer .texts .text .btn2 {
+  width: 178px;
+  height: 45px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  transition: 0.5s ease;
+}
+.continer .texts .text .btn2:hover {
+  background-color: #292728;
+}
+.continer .texts .text .btn1 {
+  width: 178px;
+  height: 45px;
+  background-color: #F14814;
+  border: none;
+  color: white;
+  transition: 0.5s ease;
+}
+.continer .texts .text .btn1:hover {
+  background-color: #d43505;
+}
+.continer .bbb {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.continer .header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.continer .header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.continer .images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.continer .images .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.continer .subscribe {
+  text-align: center;
+  margin: 40px 0;
+}
+.continer .subscribe p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.continer .footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+.continer .footer .links {
+  display: flex;
+  gap: 40px;
+}
+.continer .footer .links h3 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.continer .footer .links ul {
+  list-style: none;
+  padding: 0;
+}
+.continer .footer .links ul li {
+  margin-bottom: 5px;
+}
+.continer .footer .links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.continer .footer .links ul li a:hover {
+  text-decoration: underline;
+}
+.continer .footer .powered {
+  text-align: center;
+  margin-top: 20px;
+}
+.continer .footer .powered p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.continer .footer .powered p a {
+  color: orange;
+  text-decoration: none;
+}
+.continer .footer .powered .btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #F14814;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  right: 270px;
+}
+.continer .footer .powered .btn:hover {
+  background-color: darkorange;
+}/*# sourceMappingURL=main.css.map */
