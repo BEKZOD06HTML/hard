@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/css/main.css">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 </head>
@@ -19,11 +20,20 @@
                     <li><a href="#">Journal</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">Contact</a></li>
-                    <button>Buy Template</button>
-                    <img src="./img/Frame.svg" alt="">
+                    <button>Buy Template</button><div class="dropdown">
+                      <button style=" width: 65px;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img style="position: relative; right: 13px; bottom: 9px;"  src="./img/Frame.svg" alt="">
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" type="button">Action</button></li>
+                        <li><button class="dropdown-item" type="button">Another action</button></li>
+                        <li><button class="dropdown-item" type="button">Something else here</button></li>
+                      </ul>
+                    </div>
+                    
                 </ul>
             </header>
-            <div class="texts">
+            <div class="texts" >
                 <div class="text">
                     <h1>Shop hundreds of enamel pins from artists.</h1>
                     <button class="btn1">Shop everything</button>
@@ -60,7 +70,7 @@
                </div>
 
         </div>
-        <div style="position: relative; top: 200px;" class="texlist">
+        <div id="n1" style="position: relative; top: 200px;" class="texlist">
            <center> <p style="color: #F14814;">Ready, Set, Go</p></center>
             <center><p style="width: 700px; font-size: 27px;">Shop hundreds of enamel pins from artists. The best cool pin badges to decorate your backpack, denim jean jacket, lapel, and festival hat for sale in our online store.</p></center>
             <div style="display: flex; gap: 70px; position: relative; left: 200px;">            <div><center><img src="./img/IMAGE (8).svg" alt=""></center>
@@ -173,7 +183,7 @@
         </div>
 
       </div> -->
-      <div style="background-color: #3F3B3D; color: white;" class="bbb">
+      <div data-aos="fade-down"> <div style="background-color: #3F3B3D; color: white;" class="bbb">
         <header class="header">
             <h1 style="position: relative; right: 450px;">Celebrating the Perfectly Imperfect</h1>
         </header>
@@ -192,8 +202,7 @@
             </div>
         </section>
         <section class="subscribe" style="position: relative; right: ;">
-          <div style="position: relative; right: 400px;">            <p>Subscribe for stories and new product announcements.</p>
-           
+          <div style="position: relative; right: 400px;"><p>Subscribe for stories and new product announcements.</p>
             <p>© Pulstar powered by <span style="color: red;">Webflow</span></p></div>
         </section>
         <footer class="footer">
@@ -233,8 +242,13 @@
                 <button class="btn">Buy Template</button>
             </div>
         </footer>
+    </div></div>
+     
     </div>
-    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
